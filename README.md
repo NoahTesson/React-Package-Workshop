@@ -149,19 +149,15 @@ Now you will need to modify the `package.json` in order to publish your library.
 Modify it with your own modifications. Here is an example of mine:
 
 ```json
-"name": "react-workshop-epitech",
+"name": "React-Package-Workshop",
 "description": "Two test React components",
-"author": "bigpocc",
+"author": "EPITECH",
 "keywords": ["react", "components", "ui", "epitech", "workshop"],
 "version": "0.1.0",
 "private": false,
 "main": "dist/index.js",
 "module": "dist/index.js",
 "files": [ "dist", "README.md" ],
-"repository": {
-    "type": "git",
-    "url": "git+https://github.com/TitouanChesneau/ReactWorkshop.git"
-},
 ```
 
 You can finally run
