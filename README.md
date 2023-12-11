@@ -48,21 +48,21 @@ cd <name-of-your-app>
 In the `src` folder create a new directory called `lib`.
 
 It should look like this:
-![current src folder](./resources/first_folder.png)
+![current src folder](./first_folder.png)
 
 Run `npm run dev`, and click on the link in the terminal to see your app.
 In the lib folder, create a `index.js` file, as well as a folder called `components`.
 In the `components` folder, create four files called `CustomTooltip.jsx`, `CustomDropdown.jsx`, `CustomModal.jsx`, `CustomSlidingList.jsx` they will be all of the components we will export at the end of the workshop.
 
 Your `src` folder should look like this:
-![current src folder after start](./resources/second_folder.png)
+![current src folder after start](./second_folder.png)
 
 ## Step 1 : Custom Tooltip component
 
 In the `CustomTooltip.jsx` file, create a basic react component (use `racfe` from 'ES7+ React/Redux/React-Native snippets' VScode extension to go faster).
 
 Here is a simple example of a component in react:
-![basic React component](./resources/basic_component.png)
+![basic React component](./basic_component.png)
 Of course, name it after the file your are in.
 
 Now modify your component in order for it to take a string called `message` as parameter.
